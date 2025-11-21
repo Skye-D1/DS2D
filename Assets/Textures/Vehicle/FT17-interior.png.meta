@@ -158,7 +158,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FT17-interior_0: 8090635065205523251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

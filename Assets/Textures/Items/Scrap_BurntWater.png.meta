@@ -158,7 +158,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scrap_BurntWater_0: 7886188942472268242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

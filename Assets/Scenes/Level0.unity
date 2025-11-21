@@ -10299,7 +10299,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 588957599}
   m_PlaneDistance: 6.04
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20774,7 +20774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1216220615
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20790,9 +20790,9 @@ RectTransform:
   m_Father: {fileID: 1975115638}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -400, y: 12.5}
-  m_SizeDelta: {x: -950, y: -125}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 123.65399, y: 122.09}
+  m_SizeDelta: {x: 288.36, y: 257.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216220616
 MonoBehaviour:
@@ -20859,8 +20859,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20897,7 +20897,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -85.18414, y: 297.33563, z: -141.69324, w: 0}
+  m_margin: {x: -1.846138, y: 0.095848225, z: -0.018249651, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21565,10 +21565,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1493964602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 365, y: 0}
-  m_SizeDelta: {x: 300, y: 560}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -138.97, y: 1.697998}
+  m_SizeDelta: {x: 217.941, y: -63.396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448739614
 MonoBehaviour:
@@ -21813,7 +21813,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 588957599}
   m_PlaneDistance: 5.2
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -21881,8 +21881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -400, y: 12.5}
-  m_SizeDelta: {x: -950, y: -125}
+  m_AnchoredPosition: {x: -259.945, y: 12.5}
+  m_SizeDelta: {x: -497.195, y: -125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1559541223
 MonoBehaviour:
@@ -21910,7 +21910,27 @@ MonoBehaviour:
     sell them for fuel.
 
 
-    Controls:'
+    Controls:
+
+    A - Drive backward
+
+    S - Brake
+
+    D
+    - Drive forward
+
+    P - Toggle brake
+
+
+    C - Toggle Crane Move
+
+    Left Click
+    - Crane Magnet
+
+    V- Toggle Engine
+
+
+    Esc - Toggle Menu'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -21937,14 +21957,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18.85
+  m_fontSizeBase: 16
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 2
+  m_fontSizeMax: 172
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -21975,7 +21995,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -57.491104, y: 0, z: -216.02728, w: 0}
+  m_margin: {x: -0.5434116, y: 0, z: -117.41063, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -32069,9 +32089,9 @@ RectTransform:
   - {fileID: 1484967500}
   m_Father: {fileID: 311636716}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 469, y: -150}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -44, y: 96.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1925071595
@@ -32156,10 +32176,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1975115638}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -400, y: 32.5}
-  m_SizeDelta: {x: -950, y: -85}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 120, y: -30}
+  m_SizeDelta: {x: 546.714, y: 339.716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964007975
 MonoBehaviour:
@@ -32218,7 +32238,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -32248,7 +32268,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -57.491104, y: 0, z: -216.02728, w: 405.836}
+  m_margin: {x: -0.30314633, y: 330.28958, z: 2.1360168, w: 331.14157}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -32478,7 +32498,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 588957599}
   m_PlaneDistance: 7.1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
